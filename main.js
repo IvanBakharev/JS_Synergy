@@ -1,8 +1,9 @@
-let minutes = 17;
+
+let minutes = 43;
 
 if (!(minutes >=0 && minutes <=59)) 
 {
-    console.log("Введите згачение от 0 до 59");
+    console.log("Введите значение от 0 до 59");
 }
   else if (minutes >= 0 && minutes <= 14)
 {
@@ -20,3 +21,7 @@ else if (minutes >= 46 && minutes <= 59)
 {
     console.log(`${minutes} минут - это четвертая четверть часа`);
 }
+
+
+let result = "";
+let month = 2;
